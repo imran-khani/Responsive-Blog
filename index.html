@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <div 
+         class="header__mobile"
+        >
+          <a href="#" class="header__title">My Blog</a>
+           <!-- menu button -->
+          <button class="header__button">
+            <i class="fas fa-bars"></i>
+          </button>
+      </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content">
+      <main class="main">
+        <article class="post">
+          <h2 class="post__title">Blog post title</h2>
+          <p class="post__excerpt">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+          <a href="#" class="post__link">Read more</a>
+        </article>
+
+        <article class="post">
+          <h2 class="post__title">Blog post title</h2>
+          <p class="post__excerpt">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+          <a href="#" class="post__link">Read more</a>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="widget">
+          <h3 class="widget__title">Recent Posts</h3>
+          <ul class="widget__list">
+            <li class="widget__item">
+              <a href="#" class="widget__link">Post title</a>
+            </li>
+            <li class="widget__item">
+              <a href="#" class="widget__link">Post title</a>
+            </li>
+            <li class="widget__item">
+              <a href="#" class="widget__link">Post title</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <footer class="footer">
+      <div class="footer__container">
+        <p class="footer__text">&copy; 2024 My blog. All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
